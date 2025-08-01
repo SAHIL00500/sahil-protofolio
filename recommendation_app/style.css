@@ -1,0 +1,41 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #1c1c1c;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.app-container {
+    background: #2e2e2e;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    width: 300px;
+}
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0097a7;
+}
+select {
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
